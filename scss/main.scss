@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+ul {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #F7F7F9;
+}
+li {
+	list-style: none;
+}
+h3 {
+	padding: 0;
+	margin: 0;
+}
+.card_ne
+{
+	display: flex;
+	flex-direction:column;
+	padding: 1em 2em;
+	background: #F7F7F9;
+}
+.cra-b {
+	background: #FF8080;
+	height: 110px;
+	width: 5px;
+}
+.cra-a {
+	background: #00D455;
+	height: 120px;
+	width: 5px;
+}
+.too_card {
+	display: flex;
+	margin:  1em 0;
+}
+.o_nota {
+	margin: 0 0 0 4em;
+}
+.nota {
+	background: #ffffff;
+	width:20em; 
+	height:30em; 
+	overflow: scroll; 
+	padding: 0.5em 0 0.5em 2em;
+}
+.nota::-webkit-scrollbar{
+    width: 0.5em;
+
+}
+.nota::-webkit-scrollbar-thumb {
+     background-color: #00B455;
+     border-radius: 80px/100px;
+}
+.list-b
+{
+	display: flex;
+}
+.link-a
+{
+	text-align: center;
+	list-style: none;
+	a {
+		text-decoration: none;
+		color: #00CCFF;
+	}
+}
